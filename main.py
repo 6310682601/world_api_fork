@@ -12,7 +12,7 @@ with open(filename, "r",encoding="utf8") as csv_file:
     data_country = [{k: v for (k, v) in zip(headers, row)} for row in csv_reader]
 
 # get city data from csv file  
-filename = "C:/Users/6310682601/Working/A06/db/world_table_city.csv"
+filename = "world_table_city.csv"
 with open(filename, "r",encoding="utf8") as csv_file:
     csv_reader = csv.reader(csv_file)
     headers = next(csv_reader)
